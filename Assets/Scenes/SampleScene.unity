@@ -186,18 +186,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 193750223}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0dbbed22540ab7459c9c4c7232e8e60, type: 3}
+  m_Script: {fileID: 11500000, guid: bfb1f9ba1f25c714a8defaed6b889bb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 193750225}
-  speed: 12
-  gravity: -19.62
-  jumpHeight: 3
-  groundCheck: {fileID: 1778469743}
-  groundDustance: 0.4
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 8
+  mouseSensitivity: 300
+  playerBoby: {fileID: 193750224}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -209,7 +202,7 @@ GameObject:
   - component: {fileID: 330585546}
   - component: {fileID: 330585545}
   - component: {fileID: 330585544}
-  - component: {fileID: 330585549}
+  - component: {fileID: 330585547}
   m_Layer: 6
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -283,7 +276,7 @@ Transform:
   m_Father: {fileID: 193750224}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.112}
---- !u!114 &330585549
+--- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -292,11 +285,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 330585543}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b29860ffe6024a144aceda01ae4e8116, type: 3}
+  m_Script: {fileID: 11500000, guid: 028b23757acc6804ab77b26610769e0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 300
-  playerBoby: {fileID: 193750224}
+  controller: {fileID: 193750225}
+  speed: 12
+  gravity: -70
+  jumpHeight: 3
+  groundCheck: {fileID: 1778469743}
+  groundDustance: 0.4
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0

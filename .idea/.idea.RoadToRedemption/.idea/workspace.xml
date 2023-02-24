@@ -46,7 +46,7 @@
       <method v="2" />
     </configuration>
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="E:\Unity\2021.3.8f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\basti\UnityProjects\RoadToRedemption -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\basti\UnityProjects\RoadToRedemption" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -83,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1677241906381</updated>
       <workItem from="1677241909298" duration="29000" />
-      <workItem from="1677241952338" duration="5752000" />
+      <workItem from="1677241952338" duration="6350000" />
     </task>
     <servers />
   </component>
