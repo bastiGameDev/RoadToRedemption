@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FPSCameraController : MonoBehaviour
 {
-    public float mouseSensitivity = 300f;
+    public float mouseSensitivity = 400f;
 
     public Transform playerBoby;
 
@@ -25,6 +25,5 @@ public class FPSCameraController : MonoBehaviour
 
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
         playerBoby.Rotate(Vector3.up * mouseX);
-        //playerBoby.Rotate(Vector3. * mouseX);
     }
 }
