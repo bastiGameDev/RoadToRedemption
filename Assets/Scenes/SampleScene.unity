@@ -186,11 +186,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 193750223}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bfb1f9ba1f25c714a8defaed6b889bb4, type: 3}
+  m_Script: {fileID: 11500000, guid: 028b23757acc6804ab77b26610769e0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 300
-  playerBoby: {fileID: 193750224}
+  controller: {fileID: 193750225}
+  speed: 12
+  gravity: -9.81
+  jumpHeight: 3
+  groundCheck: {fileID: 1778469743}
+  groundDustance: 0.4
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -285,18 +292,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 330585543}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 028b23757acc6804ab77b26610769e0b, type: 3}
+  m_Script: {fileID: 11500000, guid: bfb1f9ba1f25c714a8defaed6b889bb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 193750225}
-  speed: 12
-  gravity: -70
-  jumpHeight: 3
-  groundCheck: {fileID: 1778469743}
-  groundDustance: 0.4
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 8
+  mouseSensitivity: 300
+  playerBoby: {fileID: 193750224}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
