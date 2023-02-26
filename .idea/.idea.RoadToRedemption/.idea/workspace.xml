@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f6ee60b-d7a1-4f6d-8c7c-4a3c8452c70a" name="Changes" comment="" />
+    <list default="true" id="2f6ee60b-d7a1-4f6d-8c7c-4a3c8452c70a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RoadToRedemption/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RoadToRedemption/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FPSCameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FPSCameraController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMoovementScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMoovementScript.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,9 +34,9 @@
   },
   "keyToStringList": {
     "rider.external.source.directories": [
-      "C:\\Users\\basti\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\basti\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\basti\\AppData\\Local\\Symbols\\src"
+      "C:\\Users\\79284\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\79284\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\79284\\AppData\\Local\\Symbols\\src"
     ]
   }
 }]]></component>
@@ -86,6 +90,7 @@
       <workItem from="1677241952338" duration="6661000" />
       <workItem from="1677273355017" duration="446000" />
       <workItem from="1677401947520" duration="1126000" />
+      <workItem from="1677435636030" duration="2168000" />
     </task>
     <servers />
   </component>

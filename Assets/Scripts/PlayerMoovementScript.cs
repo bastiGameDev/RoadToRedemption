@@ -7,8 +7,8 @@ public class PlayerMoovementScript : MonoBehaviour
     public CharacterController controller;
 
     [SerializeField] private float speed = 6f;
-    public float gravity = -70;
-    public float jumpHeight = 3f;
+    public float gravity = -75;
+    public float jumpHeight = 1.85f;
 
     public Transform groundCheck;
     public float groundDustance = 0.4f;
@@ -16,6 +16,8 @@ public class PlayerMoovementScript : MonoBehaviour
 
     private Vector3 velosuty;
     private bool isGrounded;
+
+    private float xRotation = 0f;
     void Update()
     {
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDustance, groundMask);
@@ -39,5 +41,7 @@ public class PlayerMoovementScript : MonoBehaviour
         velosuty.y += gravity * Time.deltaTime;
 
         controller.Move(velosuty * Time.deltaTime);
+        
     }
+    
 }
