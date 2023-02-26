@@ -6,7 +6,7 @@ public class PlayerMoovementScript : MonoBehaviour
 {
     public CharacterController controller;
 
-    public float speed = 12f;
+    [SerializeField] private float speed = 6f;
     public float gravity = -70;
     public float jumpHeight = 3f;
 
