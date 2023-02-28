@@ -1,12 +1,16 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class FPSCameraController : MonoBehaviour
 {
     public float mouseSensitivity = 400f;
 
     public Transform playerBoby;
+    
 
     private float xRotation = 0f;
     void Start()
