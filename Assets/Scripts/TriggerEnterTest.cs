@@ -1,18 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 
 public class TriggerEnterTest : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+   // private ContusionController _contusionController;
+    
+    [SerializeField] private GameObject fadedCanvas;
+    private void OnTriggerEnter(Collider other)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        fadedCanvas.SetActive(true);
+        Debug.Log("Цвет был изменён");
+        Debug.Log("Сработал триггер!");
     }
 }

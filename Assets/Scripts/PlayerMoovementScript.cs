@@ -17,7 +17,7 @@ public class PlayerMoovementScript : MonoBehaviour
     private Vector3 velosuty;
     private bool isGrounded;
 
-    private float xRotation = 0f;
+    //private float xRotation = 0f;
     void Update()
     {
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDustance, groundMask);
